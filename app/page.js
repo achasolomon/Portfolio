@@ -1,4 +1,3 @@
-import CustomCursor from "@/components/CustomCursor";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import AboutSection from "@/components/sections/AboutSection";
@@ -33,7 +32,6 @@ import {
 export default function Page() {
   return (
     <>
-      <CustomCursor />
       <SiteHeader links={navLinks} />
       <main>
         <HeroSection hero={hero} />
